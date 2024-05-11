@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <Div>
+        <h1> Hello World</h1>
+    </Div>
+    <script type="text/javascript">
+  let mp3Player = {
+    brand: "Sony", // Марка плеєра
+    model: "Walkman NW-A105", // Модель плеєра
+    color: "Black", // Колір плеєра
+    storageCapacity: "16GB", // Обсяг пам'яті
+    batteryLife: "Up to 26 hours", // Тривалість роботи від батареї
+    supportedFormats: ["MP3", "WMA", "AAC", "FLAC"], // Підтримувані формати аудіофайлів
+    display: {
+        type: "TFT LCD", // Тип дисплея
+        size: "3.6 inches", // Розмір дисплея
+        resolution: "720 x 1280 pixels" // Роздільна здатність дисплея
+    },
+    connectivity: {
+        bluetooth: true, // Наявність Bluetooth
+        wifi: true // Наявність Wi-Fi
+    },
+    controls: ["Play/Pause", "Volume control", "Skip track"], // Елементи керування
+    features: ["FM radio", "Voice recording", "Support for playlists"] // Додаткові можливості
+};
+
+// Приклад використання:
+console.log(mp3Player.brand); // Виведе "Sony"
+console.log(mp3Player.model); // Виведе "Walkman NW-A105"
+console.log(mp3Player.storageCapacity); // Виведе "16GB"
+console.log(mp3Player.supportedFormats); // Виведе ["MP3", "WMA", "AAC", "FLAC"]
+console.log(mp3Player.display.resolution); // Виведе "720 x 1280 pixels"
+console.log(mp3Player.connectivity.bluetooth); // Виведе true
+console.log(mp3Player.controls); // Виведе ["Play/Pause", "Volume control", "Skip track"]
+
+        </script>
+</body>
+</html>
