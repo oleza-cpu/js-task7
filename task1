@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <Div>
+        <h1> Hello World</h1>
+    </Div>
+    <script type="text/javascript">
+   // Створення об'єкта user
+let user = {};
+
+// Додавання властивості name із значенням "Cris"
+user.name = "Cris";
+
+// Додавання властивості surname із значенням "Simons"
+user.surname = "Simons";
+
+// Зміна значення властивості name на "Brain"
+user.name = "Brain";
+
+// Видалення властивості name з об'єкта
+delete user.name;
+
+console.log(user); // Виведе { surname: "Simons" }
+
+
+
+        </script>
+</body>
+</html>
