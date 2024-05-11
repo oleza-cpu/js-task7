@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <Div>
+        <h1> Hello World</h1>
+    </Div>
+    <script type="text/javascript">
+  
+  function calculateAverageSalary(salaries) {
+    let total = 0;
+    let count = 0;
+
+    for (let person in salaries) {
+        if (typeof salaries[person] === 'number' && !isNaN(salaries[person])) {
+            total += salaries[person];
+            count++;
+        }
+    }
+
+    if (count === 0) {
+        return "No salaries found";
+    }
+
+    return total / count;
+}
+
+
+console.log(calculateAverageSalary(salaries1)); 
+console.log(calculateAverageSalary(salaries2)); 
+
+
+        </script>
+</body>
+</html>
