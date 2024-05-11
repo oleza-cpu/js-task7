@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <Div>
+        <h1> Hello World</h1>
+    </Div>
+    <script type="text/javascript">
+  
+  let tv = {
+    currentChannel: 1,
+    nextChannel() {
+        this.currentChannel++;
+    },
+    previousChannel() {
+        if (this.currentChannel > 1) {
+            this.currentChannel--;
+        }
+    },
+    setChannel(number) {
+        if (number >= 1) {
+            this.currentChannel = number;
+        }
+    }
+};
+
+
+console.log(tv.currentChannel); 
+tv.nextChannel();
+console.log(tv.currentChannel); 
+tv.previousChannel();
+console.log(tv.currentChannel); 
+tv.setChannel(5);
+console.log(tv.currentChannel); 
+tv.setChannel(0);
+console.log(tv.currentChannel); 
+        </script>
+</body>
+</html>
