@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <Div>
+        <h1> Hello World</h1>
+    </Div>
+    <script type="text/javascript">
+  
+let model = "Toyota";
+let speed = 100;
+let car = {
+    model,
+    speed,
+    run() {
+        console.log(`${this.model} їде зі швидкістю ${this.speed}`);
+    },
+    stop() {
+        console.log(`${this.model} зупинилася`);
+    }
+};
+
+
+car.run();
+car.stop();
+
+
+        </script>
+</body>
+</html>
